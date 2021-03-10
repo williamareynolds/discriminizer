@@ -1,0 +1,20 @@
+{
+  "name": "discriminizer",
+  "version": "0.1.0",
+  "description": "Turn any old junk data into a discriminated union (somewhat) automatically.",
+  "main": "dist/index.js",
+  "repository": "https://www.github.com/williamareynolds/discriminizer",
+  "author": "William Reynolds <williamareynolds@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && yarn node dist/examples/simple/index.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
