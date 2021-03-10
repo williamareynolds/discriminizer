@@ -6,11 +6,15 @@
     "lib": [
       "ES2020"
     ],
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false,
+    "rootDir": "./simple.spec.ts",
+    "noEmit": true,
 
     /* Strict Type-Checking Options */
     "strict": true,
@@ -37,8 +41,10 @@
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
-  "exclude": [
+  "include": [
     "tests"
+  ],
+  "exclude": [
+    "src"
   ]
 }
