@@ -11,11 +11,10 @@ const pull = discriminizeDummy({
   pullerEmail: 'tom@website.com'
 })
 
-console.log(pull)
-
 const push = discriminizeDummy({
   pusherName: 'mike',
   pusherEmail: 'mike@internet.app'
 })
 
+console.log(pull)
 console.log(push)

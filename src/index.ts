@@ -34,5 +34,5 @@ export const discriminize = <TagKey extends string>(
   return {
     ...a,
     [tagKey]: tag
-  } as any
+  } as A & Record<typeof tagKey, typeof tag>
 }
