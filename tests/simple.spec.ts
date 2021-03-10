@@ -1,21 +1,11 @@
 import {discriminize} from '../src'
 
-interface PushEvent {
-  pusherName: string
-  pusherEmail: string
-}
-
-interface PullEvent {
-  pullerName: string
-  pullerEmail: string
-}
-
-const pullEventDummy: PullEvent = {
+const pullEventDummy = {
   pullerEmail: '',
   pullerName: '',
 }
 
-const pushEventDummy: PushEvent = {
+const pushEventDummy = {
   pusherEmail: '',
   pusherName: '',
 }
